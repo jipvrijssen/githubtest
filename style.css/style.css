@@ -1,0 +1,113 @@
+body {
+    background-image: url('../Content/achtergrond_1_adobe_stock_823670847.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+header li a {
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-decoration: none;
+padding: 15px;
+font-size: 25px;
+}
+
+header img{
+    max-height: 5em;
+}
+
+nav ul{
+display: flex;
+list-style-type: none;
+gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: calc(100vh - 200px); 
+    margin: 0;
+    text-align: center; 
+}
+
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+    display: block;
+}
+
+.info-box {
+    background-color: #39FF14; 
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 15px; 
+    max-width: 600px; 
+    color: black; 
+    cursor: pointer; 
+}
+
+a:hover .info-box {
+    background-color: #32CD32; 
+}
+
+
+.info-box p {
+    color: black;
+    margin: 0;  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    text-align: center; 
+    padding: 20px 0; 
+    background: transparent; 
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-icons img {
+    max-height: 50px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.footer-icons img:hover {
+    transform: scale(1.2); 
+}
+
+
+
